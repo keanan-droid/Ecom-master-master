@@ -1,0 +1,130 @@
+.registerForm {
+    padding: 1em;
+    padding-top: 8.5em;
+
+    & > .registerForm_one {
+        display: flex;
+        padding: 1em 5em;
+
+
+        & > .form_one {
+            margin-left: 10em;
+        }
+
+        & > div {
+            margin: 0 2em;
+            
+            & > h1 {
+                font-weight: 500;
+                font-size: 1.3em;
+                margin-bottom: 1em
+            }
+
+            & > span {
+                font-size: 0.9em;
+                border-bottom: 1px solid black;
+            }
+            & > span:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    & > form {
+
+    & > .registerForm_two {
+        display: flex;
+        flex-direction: column;
+
+        & > div {
+            display: flex;
+            width: 457px;
+            margin-left: 32em;
+            justify-content: space-between;
+            padding-bottom: 1em;
+            
+            & > label {
+                font-size: 0.9em;
+                margin-top: 1em;
+            }
+
+            & > input {
+                height: 45px;
+                width: 325px;
+            }
+        }
+    }
+
+    small {
+        display: flex;
+        justify-content: center;
+        margin-left: 27em;
+    }
+
+    & > .registerForm_three {
+        margin-top: 2em;
+        margin-left: 32em;
+        width: 457px;
+        
+        & > h2 {
+            font-size: 1em;
+            font-weight: 100;
+        }
+
+        & > p {
+            font-size: 0.9em;
+            font-weight: 100;
+            line-height: 25px;
+        }
+    }
+
+    & > .registerForm_four {
+        display: flex;
+        margin-left: 32em;
+
+        & > div {
+            display: flex;
+            margin-top: 1em;
+            width: 400px;
+            
+            & > input {
+                margin-right: 0.5em;
+                margin-top: 0.2em;
+            }
+        }
+    }
+
+    & > div {
+
+        & > .registerForm_five {
+            display: flex;
+            margin-left: 32em;
+            margin-top: 2em;
+            width: 400px;
+        }
+    
+        & >.registerForm_six {
+            
+            & > button {
+                display: flex;
+                justify-content: center;
+                margin-left: 53em;
+                margin-top: 2em;
+                padding: 0.8em;
+                width: 123px;
+                font-size: 1em;
+                color: white;
+                background-color: black;
+                border: 1px solid black;
+            }
+    
+            & > button:hover {
+                color: black;
+                background-color: white;
+            }
+        }
+    }
+}
+
+    
+}
